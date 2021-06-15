@@ -23,6 +23,10 @@ header {
  }
 
  header nav {
-    float: right;
-    margin: 7px 0;
-  }
+  float: right;
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
