@@ -5,30 +5,30 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-  }
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
+/* apply styles to <header> */
 header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-  }
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
 
- header h1 {
-     font-weight: bold;
-     font-size: 36px;
-     color: #fce138;
-     margin: 0;
-     display: inline;
- }
-
- header a {
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+header a {
   text-decoration: none;
   color: #fce138;
-  } 
+}
 
- header nav {
+header nav {
   float: right;
   margin: 7px 0;
 }
@@ -52,7 +52,7 @@ footer {
 footer h2 {
   display: inline;
   color: #024e76;
-  font-size: 30px; 
+  font-size: 30px;
   margin: 0;
 }
 
@@ -63,7 +63,7 @@ footer div {
 }
 
 footer a {
-  color: #024e76;     
+  color: #024e76;
 }
 
 section {
@@ -72,14 +72,13 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 /* Hero Style End */
-
 
 .hero-form {
   border: 3px solid #024e76;
@@ -96,7 +95,6 @@ section {
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -116,10 +114,9 @@ section {
 }
 
 .hero-form button {
-   background-color: #024e76;
-   color: #fce138;
-   border: none;
-   padding: 10px 20px;
-   font-size: 16px;
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
 }
-/* HERO STYLES END */
